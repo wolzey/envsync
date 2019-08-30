@@ -8,7 +8,7 @@ import (
 
 func main() {
 	fileName := flag.String("file", ".env.development", "file to save secrets")
-	secretName := flag.String("secret", "dev/exposureIQ/fe", "path to AWS secret")
+	secretName := flag.String("secret", "dev/fe", "path to AWS secret")
 
 	flag.Parse()
 
